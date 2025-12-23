@@ -55,10 +55,6 @@ jobs:
           VAULT_ADDR: http://127.0.0.1:8200
         run: ./.github/script/2-setup.sh
 
-      ###############################################################
-      # Assign an appropriate bound_claims for this activity        #
-      # See the Step 2 instructions on the README for more details  #
-      ###############################################################
       - name: Create an OIDC Role
         env:
           VAULT_ADDR: http://127.0.0.1:8200
