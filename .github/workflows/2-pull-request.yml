@@ -72,8 +72,8 @@ jobs:
             },
             "policies": ["pr-policy"],
             "ttl": "60s"
-         } 
-         EOF
+          }
+          EOF
 
       - name: Retrieve Secrets
         uses: hashicorp/vault-action@v3
